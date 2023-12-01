@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: min(90vw, 800px);
+    margin: auto;      
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    color: #363f5f;
+    font-weight: normal;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clear: (0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+header {
+    background: #2D4A22;
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+
+#logo {
+    color: #fff;
+    font-weight: 100;
+}
+
+#add {
+    border-radius: 0.25rem;
+    height: 2rem;
+    border: #fff;
+}
+
+a {
+    color: #3dd705;
+    text-decoration: none;
+    display: inline;
+}
+
+a:hover {
+    color: #49AA26;
+}
+
+#button {
+    border: 0;
+    border-radius: 0px;
+    background-color: #fff;
+    color: #49AA26;
+    display: inline-block;
+    cursor: pointer;
+    font-family: "Poppins",sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+
+#task {
+    margin-top: -8rem;
+
+}
+
+#task h2 {
+    color: #fff;
+    margin-top: 0;
+}
+
+.card {
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+}
+
+.card h3 {
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 1rem;
+    opacity: 0.7;
+}
+
+.card h3:hover{
+    opacity: 1;
+}
+
+.card.green {
+    background: #49AA26;
+    color: #fff;
+}
+
+#data-table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    color: #484849;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #484849;
+	text-transform: capitalize;
+    font-family: "Poppins",sans-serif;
+	font-weight: normal;
+	border: 0;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-right: 40px;
+	background: #fff;
+}
+
+li:hover {
+    color: #000000;
+}
+
+li > button {
+	font-weight: normal;
+    font-family: "Poppins",sans-serif;
+	background: #a26a6a00;
+	border: 5px;
+	float: right;
+	color: rgb(97, 17, 17);
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+
+.done {
+	background: #49AA26 !important;
+	color: white;
+    text-decoration: line-through;
+}
+
+.delete {
+	display: none;
+}
