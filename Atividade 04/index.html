@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Formulário</title>
+</head>
+<body id="index">
+
+    <div id="top">
+        <h1 class="club">Clubinho Literário</h1>
+    </div>
+
+    <form action="thanks.html" method="POST">
+
+        <div id="formBox">
+
+            <br>
+            <label for="name" class="name">Nome</label>
+            <br>
+            <input type="text" name="name" id="name" size="40" placeholder=" Insira seu nome completo">
+            <br>
+            
+            <br>
+            <label for="apelido" class="apelido">Apelido</label>
+            <br>
+            <input type="text" name="apelido" id="apelido" size="40" placeholder=" Insira o apelido desejado">
+            <br>
+            
+            <br>
+            <label for="email" class="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email" size="40" placeholder=" exemplo@exemplo.com">
+            <br>
+
+            <br>
+            <label for="wpp" class="wpp">Telefone</label>
+            <br>
+            <input type="tel" name="wpp" id="wpp" size="40" placeholder=" (xx) 9xxxx-xxxx">
+            <br>
+
+            <br>
+            <legend class="legenda"> Quantos livros já leu em um ano </legend>
+            <select name="selecao" id="selecao">
+                <optgroup id="op">
+                <option value="op0"> Escolha um </option>
+                <option value="op1"> Mais de 5 </option>
+                <option value="op2"> Mais de 10 </option>
+                <option value="op3"> Mais de 12 </option>
+                <option value="op4"> Mais de 15 </option>
+                <option value="op5"> Mais de 20 </option>
+                </optgroup>
+            </select>
+            <br>
+
+            <br>
+            <fieldset>
+                <legend> Escolha seus interesses em livros </legend>
+                <input type = "checkbox" id = "epico" name = "interesse" valor = "epico"> 
+                <label for = "epico"> Gênero Épico ou Narrativo </label>
+                <br>
+                
+                <input type = "checkbox" id = "lirico" name = "interesse" valor = "lirico">
+                <label for = "lirico"> Gênero Lírico </label>
+                <br>
+            
+                <input type = "checkbox" id = "dramatico" name = "interesse" valor = "dramatico">
+                <label for = "dramatico"> Gênero Dramático </label>
+                <br>
+            </fieldset>
+
+            <br>
+            <legend class="legenda"> Escolha a região onde mora</legend>
+            <input type = "radio" id = "norte" name = "norte" valor = "norte">
+            <label for = "norte" class="norte"> Norte </label>
+            <br>
+
+            <input type = "radio" id = "nordeste" name = "nordeste" valor = "nordeste">
+            <label for = "nordeste" class="nordeste"> Nordeste </label>
+            <br>
+
+            <input type = "radio" id = "centro-oeste" name = "centro-Oeste" valor = "centro-Oeste">
+            <label for = "centro-Oeste" class="centro-oeste"> Centro-Oeste </label>
+            <br>
+
+            <input type = "radio" id = "sul" name = "sul" valor = "sul">
+            <label for = "sul" class="sul"> Sul </label>
+            <br>
+
+            <input type = "radio" id = "sudeste" name = "sudeste" valor = "sudeste">
+            <label for = "sudeste" class="sudeste"> Sudeste </label>     
+            <br> 
+            
+            <br>
+            <div class="enviar" id="botao">     <!--Criei essa div-->
+                <div class="divInputBotao">     <!--Criei essa div-->
+                    <input type="submit" value="Enviar" id="button">
+                </div> 
+                <br>
+            </div>
+        </div>
+      
+    </form>
+</body>
+</html>

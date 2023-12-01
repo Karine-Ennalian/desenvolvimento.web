@@ -1,0 +1,99 @@
+#index{
+    background-color: rgb(172, 133, 88);
+    background-image: url(Imagens/backindex.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tk{
+    background-color: rgb(172, 133, 88);
+    background-image: url(Imagens/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.club{
+    margin: 0px auto;
+    margin-left: 65px;
+}
+.titulo{
+    margin: 0px auto;
+    margin-left: 25px;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+h4{
+    margin: 0px auto;
+    margin-left: 15px;
+    font-style: italic;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    padding-left: 122px;
+    padding-top: 40px;
+}
+
+
+#thanks{
+    background-color: rgba(243, 204, 137, 0.800);
+    margin: 150px;
+    width: 400px;
+    height: 300px;
+    border-radius: 30px 0px;
+}
+
+#top{
+    background-color: rgba(243, 204, 137, 0.800);
+    margin: 1px auto;
+    width: 400px;
+    height: 40px;
+    border-radius: 30px 0px;
+}
+
+#formBox{
+    background-color: rgba(243, 204, 137, 0.800);
+    margin: 1px auto;
+    width: 400px;
+    height: 538px;
+    border-radius: 30px 0px;
+}
+.enviar {
+    background-color: rgba(243, 204, 137, 0.800);
+    margin: 1px auto;
+    width: 400px;
+    height: 40px;
+    border-radius: 30px 0px;
+    text-align: center;
+}
+
+.divInputBotao{
+    padding-top: 5px;
+}
+
+#button{
+    border-radius: 10px;
+    width: 350px;
+    height: 30px;
+    color: brown;
+    background-color: rgb(206, 188, 173);
+    box-shadow: 1px -3px 16px 1px black;
+}
+
+.legenda{
+    margin-left: 20px;
+}
+
+#selecao{
+    width: 350px;
+}
+
+#name, .name, #email, .email, #wpp, .wpp, #apelido, .apelido, #livroP, 
+.livroP, #norte, .norte, #nordeste, .nordeste, #centro-oeste, .centro-oeste, 
+#sul, .sul, #sudeste, .sudeste, #op, #selecao{
+    margin: 0px auto;
+    margin-left: 20px;
+    border-radius: 10px;
+}
