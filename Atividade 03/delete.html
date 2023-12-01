@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deletar</title>
+
+</head>
+
+<body>
+
+    <h1 class="titulo">Deletar</h1>
+
+    <h3>Não é possível Deletar Dados Pessoais</h3>
+
+    <form action="create.html" method="POST" >
+
+        <label for="name">Nome Completo</label>
+        <br>
+        <input type="text" name="name" id="name" size="60" disabled value="Raimunda Alves">
+        <br>
+
+        <br>
+        <label for="username">Nome de Usuário</label>
+        <br>
+        <input type="text" name="username" id="username" size="60" disabled value="Raimunda">
+        <br>
+
+        <br>
+        <label for="sexo">Qual seu sexo?</label>
+        <br>
+        <label for="feminino"></label>
+        <input type="radio" name="feminino" id="feminino" checked disabled> Feminino
+        <label for="masculino"></label>
+        <input type="radio" name="masculino" id="masculino" disabled> Masculino
+        <label for="outro"></label>
+        <input type="radio" name="outro" id="outro" disabled> Prefiro não informar
+        <br>
+
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id="email" disabled value="pequenaraimunda123@gmail.com" size="60">
+        <br>
+
+        <br>
+        <label for="cpf">CPF</label>
+        <br>
+        <input type="text" name="cpf" id="cpf" disabled value="123.456.789-10" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" size="60">
+        <br>
+
+        <br>
+        <label for="date">Data de Nascimento</label>
+        <br>
+        <input type="date" name="date" id="date" disabled value="1927-06-08">
+        <br>
+
+        <br>
+        <label for="tel">Telefone</label>
+        <br>
+        <input type="tel" name="tel" id="tel" disabled value="(32) 98644-3656" pattern="([0-9]{2}) [0-9]{5}.[0-9]{4}" size="60" >
+        <br>
+
+        <h3>Atualizar Endereço</h3>
+
+        <label for="cep">Digite o seu CEP</label>
+        <br>
+        <input type="text" id="cep" name="cep" pattern="[0-9]{5}-[0-9]{3}"  value="89432-686">
+        <br>
+        <input type="button" value="Excluir CEP" onclick="msg()">
+        <br>
+
+        <br>
+        <label for="rua">Digite o nome da sua Rua ou Avenida</label>
+        <br>
+        <input type="text" name="rua" id="rua"  value="Rua do Arco Iris" size="60">
+        <br>
+        <input type="button" value="Excluir Rua" onclick="msg()">
+        <br>
+
+        <br>
+        <label for="bairro">Bairro</label>
+        <br>
+        <input type="text" id="bairro" name="bairro"  value="Cores Coloridas">
+        <br>
+        <input type="button" value="Excluir Bairro" onclick="msg()">
+        <br>
+        
+        <br>
+        <label for="number">Numero da Residencia</label>
+        <br>
+        <input type="number" id="number" name="number" min="0" value="25">
+        <br>
+        <input type="button" value="Excluir Numero da Residencia" onclick="msg()">
+        
+        <br>
+        <p>Tipo de Residencia:</p>
+        <label for="casa"></label>
+        <input type="radio" id="casa" name="tipoResidencia"> Casa
+        <label for="apart"></label>
+        <input type="radio" id="apart" name="tipoResidencia"> Apartamento
+        <label for="outro"></label>
+        <input type="radio" id="outro" name="tipoResidencia"> Outro
+        <br>
+
+        <br>
+        <label for="password">Senha</label>
+        <br>
+        <input type="password" name="password" id="password" disabled value="12345678" size="60" minlength="8" maxlength="16">
+        <br>
+
+        <br>
+        <input type="submit" name="Atualizar" id="enviar">
+        
+    </form>
+    
+</body>
+
+</html>
