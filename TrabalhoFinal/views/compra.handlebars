@@ -1,0 +1,77 @@
+<!--- Cabeçalho com o nome da loja e botão de login --->
+<div style="background-color: #CD853F; height: 10rem;"> 
+        
+    <a href="/login" class="btn btn-outline-light" style="margin-left: 70rem; margin-top: 20px">Login</a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="mt-0 mb-3 text-white">Empório das Variedades</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--- Lista de categorias --->
+<ul class="nav justify-content-center" style="background-color: chocolate;">
+    <li class="nav-item">
+        <a class="nav-link active" href="/" style="color: white;">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="#" style="color: white;">Livros</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Roupas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Eletrônicos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Decoração</a>
+    </li>
+</ul>
+
+<!--- Card para as informaçoes de compra --->
+<div class="card border-dark mb-3" style="width: 50%; margin-left: 25%; margin-top: 50px;margin-bottom: 50px;">
+    <div class="card-body">
+        <h5 class="card-title">Dados de pagamento</h5>
+        <form class="needs-validation" novalidate>
+            <div class="form-row">
+                <div class="col-md-9 mb-3">
+                    <label for="validationCustom01">Nome</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" required>
+                    <div class="invalid-feedback">
+                        Por favor, informe seu nome.
+                    </div>
+                </div>
+                <div class="col-md-9 mb-3">
+                    <label for="validationCustom01">Email</label>
+                    <input type="email" class="form-control" id="validationCustom01" placeholder="contato@exemplo.com"
+                        required>
+                    <div class="invalid-feedback">
+                        Por favor, informe seu email.
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label for="validationCustom02">Número do Cartão</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="4111 1111 1111 1111"
+                        required>
+                    <div class="invalid-feedback">
+                        Por favor, informe os numeros do seu cartão.
+                    </div>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <label for="validationCustom02">CVC</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="000" required>
+                    <div class="invalid-feedback">
+                        Por favor, informe os numeros do seu CVC.
+                    </div>
+                </div>
+            </div>
+            <a href="/" class="btn btn-secondary" type="submit">Concluir</a>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+<!--- Cabeçalho com o nome da loja e botão de login --->
+<div style="background-color: #CD853F; height: 10rem;"> 
+        
+    <a href="/login" class="btn btn-outline-light" style="margin-left: 70rem; margin-top: 20px">Login</a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="mt-0 mb-3 text-white">Empório das Variedades</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--- Lista de categorias --->
+<ul class="nav justify-content-center" style="background-color: chocolate;">
+    <li class="nav-item">
+        <a class="nav-link active" href="/" style="color: white;">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="#" style="color: white;">Livros</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Roupas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Eletrônicos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Decoração</a>
+    </li>
+</ul>
+
+<!--- Campo para pesquisa --->
+<form class="form-inline my-2 my-lg-0  justify-content-center">
+    <input class="col-form-label" style="margin-left: 25rem; width: 30rem;" type="search" placeholder="Digite aqui o que deseja encontrar" aria-label="Pesquisar">
+    <button class="btn btn-outline-secondary" type="submit" style="margin-bottom: 6px;">Pesquisar</button>
+</form>
+
+
+{{#each empresas}}
+<!--- Card de exposição das empressas cadastradas --->
+<div class="row">
+  <div class="col-md-4" style="margin-top: 25px; margin-left: 25px;">
+    <div class="card mb-4">
+      <img class="card-img-top" src="logo.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 name="nameEmpresa" class="card-title">{{nameEmpresa}}</h5>
+        <a href="lojinha.html" class="btn btn-outline-dark btn-sm">Visite a loja</a>
+      </div>
+    </div>
+  </div>
+</div>
+{{else}}
+{{/each}}

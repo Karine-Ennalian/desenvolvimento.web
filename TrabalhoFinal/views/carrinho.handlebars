@@ -1,0 +1,92 @@
+<!--- Cabeçalho com o nome da loja e botão de login --->
+<div style="background-color: #CD853F; height: 10rem;"> 
+        
+    <a href="/login" class="btn btn-outline-light" style="margin-left: 70rem; margin-top: 20px">Login</a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="mt-0 mb-3 text-white">Empório das Variedades</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--- Lista de categorias --->
+<ul class="nav justify-content-center" style="background-color: chocolate;">
+    <li class="nav-item">
+        <a class="nav-link active" href="/" style="color: white;">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="#" style="color: white;">Livros</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Roupas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Eletrônicos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Decoração</a>
+    </li>
+</ul>
+
+<!--- Campo para pesquisa --->
+<form class="form-inline my-2 my-lg-0  justify-content-center">
+    <input class="col-form-label" style="margin-left: 25rem; width: 30rem;" type="search" placeholder="Digite aqui o que deseja encontrar" aria-label="Pesquisar">
+    <button class="btn btn-outline-secondary" type="submit" style="margin-bottom: 6px;">Pesquisar</button>
+</form>
+
+<!--- Campo para pesquisa --->
+
+<div class="container" style="margin-top: 25px;">
+    <table id="cart" class="table table-hover table-condensed">
+        <thead>
+            <tr>
+                <th style="width:50%">Produto</th>
+                <th style="width:10%">Preço</th>
+                <th style="width:8%">Quantidade</th>
+                <th style="width:22%" class="text-center">Subtotal</th>
+                <th style="width:10%"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-th="Product">
+                    <div class="row">
+                        <div class="col-sm-2 hidden-xs" style="margin-right: 10px;"><img
+                                src="https://cf.shopee.com.br/file/9496e696905d236e4d5415b35a659394_tn" alt="..." class="img-responsive" /></div>
+                        <div class="col-sm-10">
+                            <h4 class="nomargin">Produto 1</h4>
+                            <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur. Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </td>
+                <td data-th="Price">R$100.00</td>
+                <td data-th="Quantity">
+                    <input type="number" class="form-control text-center" value="1">
+                </td>
+                <td data-th="Subtotal" class="stext-centers">R$100.00</td>
+                <td class="actions" data-th="">
+                    <button class="btn btn-info btn-sm" style="margin-bottom: 5px;"><i
+                            class="fa fa-refresh"></i>atualizar</button>
+                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>Deletar</button>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="visible-xs">
+                <td class="text-center"><strong>Total R$100.00</strong></td>
+            </tr>
+            <tr>
+                <td><a href="/loja" class="btn btn-warning"><i class="fa fa-angle-left"></i>Continue Comprando</a></td>
+                <td colspan="2" class="hidden-xs"></td>
+                <td class="hidden-xs text-center"><strong>Total R$1.99</strong></td>
+                <td><a href="/finalizarCompra" class="btn btn-success btn-block">Finalizar Compra<i
+                            class="fa fa-angle-right"></i></a></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

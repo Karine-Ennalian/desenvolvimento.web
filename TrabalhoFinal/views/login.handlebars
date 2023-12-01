@@ -1,0 +1,71 @@
+<!--- Cabeçalho com o nome da loja e botão de login --->
+<div style="background-color: #CD853F; height: 10rem;"> 
+        
+    <a href="/login" class="btn btn-outline-light" style="margin-left: 70rem; margin-top: 20px">Login</a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="mt-0 mb-3 text-white">Empório das Variedades</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--- Lista de categorias --->
+<ul class="nav justify-content-center" style="background-color: chocolate;">
+    <li class="nav-item">
+        <a class="nav-link active" href="/" style="color: white;">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="#" style="color: white;">Livros</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Roupas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Eletrônicos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Decoração</a>
+    </li>
+</ul>
+
+<!--- Card com o formulario de login --->
+<div class="card border-dark mb-3" style="width: 30%; margin-left: 35%; margin-top: 50px; margin-bottom: 50px;">
+    <div class="card-body">
+        <h5 class="card-title" style="margin-left: 40%;">Login</h5>
+        <form method="POST" class="needs-validation" novalidate>
+            <div class="form-row">
+                <div class="col-md-12 mb-3">
+                    <label for="validationCustom02">Login</label>
+                    <input name="email" type="text" class="form-control" id="validationCustom02" placeholder="username"
+                        required>
+                    <div class="invalid-feedback">
+                        Por favor, informe um login.
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-12 mb-3">
+                    <label for="validationCustom02">Senha</label>
+                    <input name="senha" type="password" class="form-control" id="validationCustom02"
+                        placeholder="password" required>
+                    <div class="invalid-feedback">
+                        Por favor, informe uma senha.
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-secondary btn-sm btn-block" type="submit" style="margin-left: 9rem;">Entrar</button>
+        </form>
+    </div>
+</div>
+<div class="nav justify-content-center" style="margin-right: 10px">
+    <div class="col-md-12 text-center">
+        <h6 class="mt-0 mb-3 text-black">Não é cadastrado?</h6>
+    </div>
+        <a style="margin-right: 10px" href="/admVendedor" class="btn btn-secondary">Cadastre-se Aqui</a>
+        <!-- <a href="./cadastroCliente" class="btn btn-secondary" style="margin-right: 15px;">Sou Cliente</a> -->
+    
+</div>

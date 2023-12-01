@@ -1,0 +1,125 @@
+<!--- Cabeçalho com o nome da loja e botão de login --->
+<div style="background-color: #CD853F; height: 10rem;"> 
+        
+    <a href="/login" class="btn btn-outline-light" style="margin-left: 70rem; margin-top: 20px">Login</a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="mt-0 mb-3 text-white">Empório das Variedades</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--- Lista de categorias --->
+<ul class="nav justify-content-center" style="background-color: chocolate;">
+    <li class="nav-item">
+        <a class="nav-link active" href="/" style="color: white;">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="#" style="color: white;">Livros</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Roupas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Eletrônicos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white;">Decoração</a>
+    </li>
+</ul>
+
+<!--- Campo para pesquisa --->
+<form class="form-inline my-2 my-lg-0  justify-content-center">
+    <input class="col-form-label" style="margin-left: 25rem; width: 30rem;" type="search" placeholder="Digite aqui o que deseja encontrar" aria-label="Pesquisar">
+    <button class="btn btn-outline-secondary" type="submit" style="margin-bottom: 6px;">Pesquisar</button>
+</form>
+
+<!--Section: Block Content-->
+<section class="mb-5" style="margin-top: 25px;">
+
+    <div class="row">
+        <div class="col-md-6 mb-4 mb-md-0">
+
+            <div id="mdb-lightbox-ui"></div>
+
+            <div class="mdb-lightbox">
+
+                <div class="row product-gallery mx-1">
+
+                    <div class="col-12 mb-0">
+                        <figure class="view overlay rounded z-depth-1 main-img">
+                            <a href="https://cf.shopee.com.br/file/9496e696905d236e4d5415b35a659394_tn"
+                                data-size="710x823">
+                                <img class="img-fluid z-depth-1"
+                                    src="https://cf.shopee.com.br/file/9496e696905d236e4d5415b35a659394_tn"
+                                    alt="">
+
+                            </a>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img class="img-fluid z-depth-1"
+                                        src="https://cf.shopee.com.br/file/9496e696905d236e4d5415b35a659394_tn"
+                                        alt="">
+
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img class="img-fluid z-depth-1"
+                                        src="https://cf.shopee.com.br/file/9496e696905d236e4d5415b35a659394_tn"
+                                        alt="">
+
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-6">
+            <h5>Vestido</h5>
+            <p class="mb-2 text-muted text-uppercase small">Vestido Vinho</p>
+            <p><span class="mr-1"><strong>R$100.00</strong></span></p>
+            <p class="pt-1">Vestido Vinho Curto.</p>
+            <hr>
+            <div class="table-responsive mb-2">
+                <table class="table table-sm table-borderless">
+                    <tbody>
+                        <tr>
+                            <td class="pl-0 pb-0 w-25">Quantidade</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-0">
+                                <div class="def-number-input number-input safari_only mb-0">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                        class="minus"></button>
+                                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                        class="plus"></button>
+                                </div>
+            </div>
+            </td>
+            </tr>
+            </tbody>
+            </table>
+        </div>
+        <a type="button" class="btn btn-primary btn-md mr-1 mb-2" href="/finalizarCompra">Comprar</a>
+        <a type="a" class="btn btn-light btn-md mr-1 mb-2" href="/carrinho"><i
+                class="fas fa-shopping-cart pr-2"></i>Adicionar ao carrinho</a>
+    </div>
+    </div>
+
+</section>

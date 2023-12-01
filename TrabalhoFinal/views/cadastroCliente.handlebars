@@ -1,0 +1,122 @@
+<!--- Cabeçalho com o nome da loja e botão de login --->
+<section class="pt-5 pb-5 bg-dark inner-header">
+    <div class="d-flex flex-row-reverse" style="margin-right: 25px;">
+        <a href="/login" class="btn btn-secondary" style="margin-right: 15px;">Login</a>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="mt-0 mb-3 text-white">Lojinha Marota</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--- Lista de categorias --->
+<ul class="nav justify-content-center">
+    <li class="nav-item">
+        <a class="nav-link active" href="/">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Livros</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Roupas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Eletrônicos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Decoração</a>
+    </li>
+</ul>
+
+<!--- Card com o formulario de cadastro --->
+<div class="card border-dark mb-3" style="width: 93%; margin-left: 50px; margin-top: 50px; margin-bottom: 50px;">
+  <div class="card-body">
+    <h5 class="card-title">Cadastro</h5>
+    <form method="POST" class="needs-validation" novalidate>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom01">Primeiro nome</label>
+          <input name="name" type="text" class="form-control" id="validationCustom01" placeholder="Nome" required>
+          <div class="invalid-feedback">
+            Por favor, informe seu primeiro nome.
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom02">Sobrenome</label>
+          <input name="sobrenome" type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome" required>
+          <div class="invalid-feedback">
+            Por favor, informe seu sobrenome.
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom02">E-mail</label>
+          <input name="email" type="email" class="form-control" id="validationCustom02"
+            placeholder="ex: exemplo@gmail.com" required>
+          <div class="invalid-feedback">
+            Por favor, informe um e-mail.
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom02">CPF</label>
+          <input name="cpf" type="text" class="form-control" id="validationCustom02"
+            placeholder="XXX.XXX.XXX-XX" required>
+          <div class="invalid-feedback">
+            Por favor, informe seu CPF.
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom02">Senha</label>
+          <input name="senha" type="password" class="form-control" id="validationCustom02" placeholder="Senha" required>
+          <div class="invalid-feedback">
+            Por favor, informe uma senha.
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom03">Cidade</label>
+          <input name="cidade" type="text" class="form-control" id="validationCustom03" placeholder="Cidade" required>
+          <div class="invalid-feedback">
+            Por favor, informe uma cidade válida.
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom04">Estado</label>
+          <input name="estado" type="text" class="form-control" id="validationCustom04" placeholder="Estado" required>
+          <div class="invalid-feedback">
+            Por favor, informe um estado válido.
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom05">CEP</label>
+          <input name="cep" type="text" class="form-control" id="validationCustom05" placeholder="CEP" required>
+          <div class="invalid-feedback">
+            Por favor, informe um CEP válido.
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Concordo com os termos e condições
+          </label>
+          <div class="invalid-feedback">
+            Você deve concordar, antes de continuar.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-secondary" type="submit">Cadastrar</button>
+    </form>
+  </div>
+</div>
